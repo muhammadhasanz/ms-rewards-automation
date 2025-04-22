@@ -31,10 +31,9 @@ This project provides a Python script to automate daily tasks on the Microsoft R
 1.  **Clone the repository:**
     Open your terminal or command prompt and clone the project:
     ```bash
-    git clone https://github.com/hei1sme/ms_rewards_bot.git
+    git clone https://github.com/hei1sme/ms-rewards-automation.git
     cd ms_rewards_bot
     ```
-    *(Replace `hei1sme` with your GitHub username and the repository name if you've forked it)*
 
 2.  **Install Python dependencies:**
     Make sure you are in the `ms_rewards_bot` directory. The required libraries are listed in `requirements.txt`. Install them using pip:
