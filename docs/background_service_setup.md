@@ -15,8 +15,6 @@ This allows the bot to perform tasks daily without requiring you to manually run
 
 Systemd user services are the standard, robust way to run background tasks for a specific user on modern Linux. They ensure the script runs reliably on schedule and can restart if needed.
 
-*(Note: You mentioned using `nohup`. While `nohup` allows a script to continue after you close the terminal, it's not a full service manager. It won't automatically start the script after a reboot, won't automatically restart it if it crashes, and managing its status is less straightforward than with systemd. Systemd is the recommended approach for unattended daily runs.)*
-
 We will create two small files:
 1.  A `.service` file: Tells systemd *how* to run your script once.
 2.  A `.timer` file: Tells systemd *when* to run that service file.
