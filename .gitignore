@@ -1,0 +1,28 @@
+# Byte-code files
+*.pyc
+__pycache__/
+
+# Environments
+.env
+venv/
+env/
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs - important for services
+ms_rewards_automation.log
+
+# User-specific profile data
+# IMPORTANT: This directory contains your browser profile including cookies and login data.
+# Do NOT commit this directory if you want to keep your profile private or if it becomes very large.
+# Uncomment the line below to ignore the default location:
+#.ms_rewards_automation_profile/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Nohup out
+nohup.out
