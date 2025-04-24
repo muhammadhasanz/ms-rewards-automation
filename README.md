@@ -1,4 +1,4 @@
-# Microsoft Rewards Automation Bot - WIP
+# Microsoft Rewards Automation Bot - Pre-release
 
 ![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)
 ![Selenium](https://img.shields.io/badge/Selenium-%E2%99%A5-lightgrey.svg)
